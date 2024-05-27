@@ -1,0 +1,256 @@
+i {
+	cursor: pointer;
+	margin: 5px;
+}
+
+.navbar-light {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	left: 0%;
+}
+
+.navbar-anchor a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+#userIcon {
+	text-align: center;
+	font-size: 25px;
+	padding: 5px;
+}
+
+#logo {
+	width: 60px;
+	height: 50px;
+}
+
+	/* 네비바 드롭다운 */
+.dropdown-toggle:hover {
+	color: #83bf7b;
+	border-color: aliceblue;
+}
+
+.dropdown:hover .nav-category {
+	display: block;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+/*상품 사진 및 설명*/
+.clothesMain {
+	position: relative;
+}
+
+.imgBox {
+	width: 600px;
+	height: 450px;
+}
+
+.clothesName {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+.clothesPrice,
+.clothesDelivery {
+	border-bottom: 1px solid gainsboro;
+	text-align: center;
+}
+
+.orderBox {
+	text-align: center;
+}
+
+
+
+.clothesDetail {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.clothesExplain {
+	margin-top: 50px;
+}
+
+
+.container-explain .clothesExplain {
+	width: 100%;
+}
+
+.countBox {
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid gainsboro;
+}
+
+.numberBox {
+	text-align: center;
+}
+
+.btnCount {
+	width: 40px;
+	height: 40px;
+	/* radius:0; */
+	border: none;
+
+}
+
+.inputCount {
+	text-align: center;
+	padding: 0;
+	width: 130px;
+	border: 1px solid gainsboro;
+}
+
+.btnOrder {
+	background-color: #f1f2ed;
+	border-color: #f1f2ed;
+	width: 150px;
+}
+
+.btnCart {
+	background-color: #c9192f;
+	border-color: #ae3039;
+	margin-left: 10px;
+	width: 150px;
+	height: 50px;
+}
+
+.body {
+	padding-bottom: 100px;
+}
+
+/* 상품 메뉴 */
+.detailNav {
+	margin-top: 150px;
+}
+
+.detailNav a {
+	text-decoration: none;
+	color: cadetblue;
+}
+
+/* 상품 정보*/
+.brand {
+	margin: auto;
+	width: 1000px;
+	margin-top: 100px;
+	border: 2px solid black;
+}
+
+p {
+	margin: revert;
+}
+
+.brand_detail1,
+.brand_detail2,
+.brand_detail3 {
+	margin: auto;
+	border-bottom: 1px solid black;
+}
+
+.brand_title {
+	margin: auto;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background-color: lightgray;
+}
+
+b {
+	padding-left: 10px;
+}
+
+.brand_info {
+	margin: auto;
+	font-weight: bold;
+	font-size: 15px;
+	border-right: 1px solid black;
+}
+
+.info_detail {
+	margin: auto;
+	font-size: 13px;
+	border-right: 1px solid black;
+	/* height: 52.5px; */
+}
+
+/* 판매자 정보 */
+.seller {
+	background-color: lightgray;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+}
+
+.detail {
+	border: 2px solid black;
+	width: 1000px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: ghostwhite;
+}
+
+[class*="detail_info"] {
+	margin: auto;
+	border-bottom: 1px solid black;
+}
+
+.detail_title {
+	border-right: 1px solid black;
+	font-weight: bold;
+}
+
+.seller-detail {
+	font-size: 13px;
+	color: darkblue;
+}
+
+p {
+	font-size: 0.8rem;
+}
+
+
+/* 리뷰 영역 */
+.review {
+	width: 1000px;
+	background-color: #F7F5F2;
+	align-content: center;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.reviewContent {
+	width: 100%;
+}
+
+.reviewTableHead {
+	padding-top: 15px;
+}
+
+/*풋터 영역*/
+.footerBox {
+	height: 200px;
+}
+
+footer.footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.footer a {
+	text-decoration: none;
+	color: black;
+	font-weight: 40px;
+	font-weight: bold;
+}
+
+/* 리뷰 조회 이미지 크기 설정 */
+#reviewImgDiv img {
+    max-width: 100%; /* 이미지의 최대 너비를 부모 요소(reviewImgDiv)의 50%로 설정 */
+				height: auto; /* 이미지의 높이를 자동으로 조정하여 비율을 유지 */
+}
